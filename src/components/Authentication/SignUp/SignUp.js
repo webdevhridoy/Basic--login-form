@@ -18,7 +18,7 @@ const SignUp = () => {
                 {/* <!-- Email input --> */}
                 <div class="mb-6">
                     <input
-                        type="text"
+                        type="email"
                         className="form-control rounded-full block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border-2 border-gray-500 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-pink-600 focus:outline-none"
                         id="exampleFormControlInput2"
                         placeholder="Email address"

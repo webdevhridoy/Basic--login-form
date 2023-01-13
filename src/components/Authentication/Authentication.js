@@ -32,17 +32,17 @@ const Authentication = () => {
                     </li>
                     <li className='pl-10'>
                         <Link className={
-                            "text-xl font-bold" +
+                            "text-xl font-bold " +
                             (openTab === 2 ? "text-black border-b-2 border-b-pink-600 px-10"
                                 :
-                                "text-blue ")
+                                "text-black ")
                         }
                             onClick={(e) => {
                                 e.preventDefault();
                                 setOpenTab(2);
                             }}
                             data-toggle="tab"
-                            href="#tab2"
+                            href="#tab1"
                             role="tablist"
                         >Sign Up</Link>
                     </li>
